@@ -16,13 +16,15 @@ Notes:
 
 1-  The main main method for getting data out of TOM is the microsoft .net SDK. This code can be augmented by adding more classes as seen on the documentation for [Microsoft.AnalysisServices.Tabular](https://docs.microsoft.com/en-us/dotnet/api/microsoft.analysisservices.tabular.column?view=analysisservices-dotnet)
 
-2-  I will be cleaning up the code to use classes eventuall to make it cleaner but for now everything has been tested
+2-  The date "12/31/1699 12:00:00 AM" you see in the PyTOM.py script is how TOM stores null dates for my purpose i wanted to find partitions that have never been refreshed to i am targetting those dates to send over to my refresh script.
 
-3-  The date "12/31/1699 12:00:00 AM" you see in the PyTOM.py script is how TOM stores null dates for my purpose i wanted to find partitions that have never been refreshed to i am targetting those dates to send over to my refresh script.
+3-The AAS_REFRESH script requires the ASA_BEARER_TOKEN to be set up and is set up to use object inputs from PyTOM but can be run without PyTOM by manually building the pyload object
 
-4-The AAS_REFRESH script requires the ASA_BEARER_TOKEN to be set up and is set up to use object inputs from PyTOM but can be run without PyTOM by manually building the pyload object
+4- PyTOM uses ssas_api and can be used as stand alone to query and execute operations on a specific aas server. I also use it to create a repo of dax measures for CDC processes
 
-5- PyTOM uses ssas_api and can be used as stand alone to query and execute operations on a specific aas server. I also use it to create a repo of dax measures for CDC processes
+PD:
+
+1-  I will be cleaning up the code to use classes eventually to make it cleaner but for now everything has been tested
 
 
 
