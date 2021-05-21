@@ -20,5 +20,9 @@ Notes:
 
 3-  The date "12/31/1699 12:00:00 AM" you see in the PyTOM.py script is how TOM stores null dates for my purpose i wanted to find partitions that have never been refreshed to i am targetting those dates to send over to my refresh script.
 
+4-The AAS_REFRESH script requires the ASA_BEARER_TOKEN to be set up and is set up to use object inputs from PyTOM but can be run without PyTOM by manually building the pyload object
+
+5- PyTOM uses ssas_api and can be used as stand alone to query and execute operations on a specific aas server. I also use it to create a repo of dax measures for CDC processes
+
 
 
