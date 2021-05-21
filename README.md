@@ -14,9 +14,11 @@ Prerequisites:
 Notes: 
 
 
-1-  I will be cleaning up the code to use classes eventuall to make it cleaner but for now everything has been tested
+1-  The main main method for getting data out of TOM is the microsoft .net SDK. This code can be augement by adding more classes as seen on the documentation for [Microsoft.AnalysisServices.Tabular](https://docs.microsoft.com/en-us/dotnet/api/microsoft.analysisservices.tabular.column?view=analysisservices-dotnet)
 
-2-  The date "12/31/1699 12:00:00 AM" you see in the PyTOM.py script is how TOM stores null dates for my purpose i wanted to find partitions that have never been refreshed to i am targetting those dates to send over to my refresh script.
+2-  I will be cleaning up the code to use classes eventuall to make it cleaner but for now everything has been tested
+
+3-  The date "12/31/1699 12:00:00 AM" you see in the PyTOM.py script is how TOM stores null dates for my purpose i wanted to find partitions that have never been refreshed to i am targetting those dates to send over to my refresh script.
 
 
 
