@@ -1,7 +1,7 @@
 # AnalysisServices
 Automation repo for TOM engine in AAS and PowerBI 
 
-The portion of this script that allow accessing the TOM engine is thanks to the hard work of yehoshuadimarsky thanks to his [ssas_api.py](https://github.com/yehoshuadimarsky/python-ssas/blob/master/ssas_api.py) i was able to a 2 way process with any AAS/PowerBI server.
+The portion of this script that allow accessing the TOM engine is thanks to the hard work of yehoshuadimarsky his [ssas_api.py](https://github.com/yehoshuadimarsky/python-ssas/blob/master/ssas_api.py) allowed me to create a read, write,refresh application for working on AAS/PowerBI servers.
 
 Prerequisites:
 
