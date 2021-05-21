@@ -24,7 +24,7 @@ Notes:
 
 PD:
 
-1-  I will be cleaning up the code to use classes eventually to make it cleaner but for now everything has been tested
+1-  I will be cleaning up the code to use classes eventually to make it cleaner but for now everything has been tested and is working
 
 
 
