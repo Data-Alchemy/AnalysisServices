@@ -14,7 +14,7 @@ Prerequisites:
 Notes: 
 
 
-1-  The main main method for getting data out of TOM is the microsoft .net SDK. This code can be augement by adding more classes as seen on the documentation for [Microsoft.AnalysisServices.Tabular](https://docs.microsoft.com/en-us/dotnet/api/microsoft.analysisservices.tabular.column?view=analysisservices-dotnet)
+1-  The main main method for getting data out of TOM is the microsoft .net SDK. This code can be augmented by adding more classes as seen on the documentation for [Microsoft.AnalysisServices.Tabular](https://docs.microsoft.com/en-us/dotnet/api/microsoft.analysisservices.tabular.column?view=analysisservices-dotnet)
 
 2-  I will be cleaning up the code to use classes eventuall to make it cleaner but for now everything has been tested
 
