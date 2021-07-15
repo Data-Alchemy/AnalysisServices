@@ -8,7 +8,7 @@ Prerequisites:
 
 1-  This script requires 2 dll's to be installed prior to execution and can be downloaded from the [microsoft client libraries](https://docs.microsoft.com/en-us/analysis-services/client-libraries?view=asallproducts-allversions) for .net. You will need the ADOMD and AMO packages installed in your machine.
 
-2-  All 4 scripts must be placed in the same python project folder or you will need to user folder references in your import method.
+2-  All 4 scripts must be placed in the same python project folder or you will need to use folder references in your import method.
 
 
 Notes: 
